@@ -1,0 +1,8 @@
+table.table.table-striped
+  tr
+    th SHA1
+    th Size
+    th Path
+    th
+  - @files.each do |f|
+    = render(partial: 'line_item', locals: { file: f } )

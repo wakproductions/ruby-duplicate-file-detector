@@ -1,0 +1,5 @@
+tr[data-filemetadata-id="#{file.id}"]
+  td= file.sha1
+  td= file.file_size
+  td= file.path
+  td= link_to('Delete', report_path(file.id), method: :delete, remote: true)

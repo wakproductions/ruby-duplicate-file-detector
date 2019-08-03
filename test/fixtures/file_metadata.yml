@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  path: MyString
+  sha1: MyString
+
+two:
+  path: MyString
+  sha1: MyString
